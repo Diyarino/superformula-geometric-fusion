@@ -20,10 +20,7 @@ Watch how the latent space evolves from an initial isotropic sphere to a complex
 ### Anomaly Detection via Topological Voids
 When sensor data conflicts with visual input (e.g., dead sensor), the geometric constraints force the representation to collapse into disjoint "voids."
 
-| Nominal State (Manifold) | Failure State (Void) |
-| :---: | :---: |
-| ![Clean t-SNE](tsne_clean.png) | ![Failure t-SNE](tsne_failure.png) |
-| *Valid data lies on the surface* | *Anomalies are pushed to disjoint clusters* |
+[Clean t-SNE](tsne.png)
 
 ---
 
