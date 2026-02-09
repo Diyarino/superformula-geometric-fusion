@@ -16,7 +16,6 @@ This repository contains the PyTorch implementation of **Superformula Geometric 
 Watch how the latent space evolves from an initial isotropic sphere to a complex, data-driven supershape that captures the joint topology of visual and kinematic data.
 
 ![Manifold Evolution](manifold_evolution.gif)
-*(Replace this with your GIF showing the 3D surface changing over epochs)*
 
 ### Anomaly Detection via Topological Voids
 When sensor data conflicts with visual input (e.g., dead sensor), the geometric constraints force the representation to collapse into disjoint "voids."
