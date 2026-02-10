@@ -284,7 +284,7 @@ class SuperformulaFusion(nn.Module):
 
         # --- PLOTTING ---
         if ax is None:
-            fig = plt.figure(figsize=(10, 8))
+            fig = plt.figure(figsize=(5, 5))
             ax = fig.add_subplot(111, projection='3d')
             external_plot = False
         else:
@@ -304,8 +304,6 @@ class SuperformulaFusion(nn.Module):
         )
 
         # Labels and Styling
-        title_text = f"Latent Manifold Geometry\nParams: m={m:.2f}, n1={n1:.2f}, n2={n2:.2f}, n3={n3:.2f}"
-        ax.set_title(title_text)
         ax.set_xlabel('X')
         ax.set_ylabel('Y')
         ax.set_zlabel('Z')
